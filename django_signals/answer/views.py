@@ -63,7 +63,7 @@ def answers(request):
                    This proves the Signal is part of the same transaction—if it fails, the initial save is undone. </p>''')
     
 
-    results.append('<a href="https://github.com/RohithReddy17/accuknox_django_trainee/blob/main/django_signals/answer/views.py"> To view code - click here </a>')
+    results.append('<a href="https://github.com/RohithReddy17/accuknox_django_trainee/tree/main/django_signals/answer"> To view code - click here </a>')
 
 
     return HttpResponse("".join(results))
